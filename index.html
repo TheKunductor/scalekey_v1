@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ScaleKey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="container">
+
+<body>
+
+        <header>ScaleKey</header>    
+    
+
+        
+        <div class="dropdown">
+            <button id="btn" class="dropbtn">Select Song Key</button>
+            <div class="dropdown-content">
+                <button id="cmajoraminor" class="btn" onclick="one()">C Major/A Minor</button>
+                <button id="gmajoreminor" class="btn" onclick="two()">G Major/E Minor</button>
+                <button id="dmajorbminor" class="btn" onclick="three()">D Major/B Minor</button>
+                <button id="amajorfsharpminor" class="btn" onclick="four()">A Major/F Sharp Minor</button>
+                <button id="emajorcsharpminor" class="btn" onclick="five()">E Major/C Sharp Minor</button>
+                <button id="fmajordminor" class="btn" onclick="six()">F Major/D Minor</button>
+                <button id="bflatmajorgminor" class="btn" onclick="eight()">B Flat Major/G Minor</button>
+                <button id="eflatmajorcminor" class="btn" onclick="seven()">E Flat Major/C Minor</button>
+                <button id="aflatmajorfminor" class="btn" onclick="nine()">A Flat Major/F Minor</button>
+                <button id="bmajorgsharpminor" class="btn" onclick="ten()">B Major/G Sharp Minor</button>
+                <button id="cflatmajoraflatminor" class="btn" onclick="eleven()">C Flat Major/A Flat Minor</button>
+                <button id="fsharpmajordsharpminor" class="btn" onclick="twelve()">F Sharp Major/D Sharp Minor</button>
+                <button id="gflatmajoreflatminor" class="btn" onclick="thirteen()">G Flat Major/E Flat Minor</button>
+                <button id="csharpmajorasharpminor" class="btn" onclick="fourteen()">C Sharp Major/A Sharp Minor</button>
+                <button id="dflatmajorbflatminor" class="btn" onclick="fifteen()">D Flat Major/B Flat Minor</button>
+            </div>
+          </div>
+    
+
+    
+        <img class="img-fluid" src="images/piano_originalblack.png" id="piano" alt="Notes on Piano Keys">
+        <img src="images/notebar_blank.png" id="notebar" class="theNotebar" alt="Black NoteBar">
+
+        <audio controls>
+            <source src="" type="audio/wav">
+            Your browser does not support the audio tag.
+          </audio> 
+        
+
+        <br>
+
+   
+
+    <footer>
+        Click play above to hear the selected scale.
+        <br>
+        <a href="https://www.victorfloyd.tech"><img src="images/sig4footer.png" class="footersig" alt="www.victorfloyd.tech"></a>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
