@@ -1,3 +1,5 @@
+
+
 // These Functions show the notes on the keyboard when the key is selected from the drop down menu
 // If else statement included to show a larger picture of keyboard if users are on smaller screen (phones)
 function one(){
@@ -8,6 +10,8 @@ function one(){
       document.getElementById('piano').src='images/piano_cmajoraminor_mobile.png';
       document.getElementById('notebar').src='images/notebar_cmajoraminor.png';
     }
+    //changes the audio clip to the right one
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/cmajoraminor.wav';
  }
 
 function two(){
@@ -18,7 +22,9 @@ function two(){
         document.getElementById('piano').src='images/piano_gmajoreminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_gmajoreminor.png'; 
     }
-            }
+    document.getElementById('player').src="https://sizzoundbucket.s3.us-east-2.amazonaws.com/gmajoreminor.wav";
+ }
+            
 
 function three(){
     if(window.innerWidth > 600){
@@ -28,6 +34,7 @@ function three(){
         document.getElementById('piano').src='images/piano_dmajorbminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_dmajorbminor.png';
      }
+     document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/dmajorbminor.wav';
 }
 
 function four(){
@@ -38,6 +45,7 @@ function four(){
         document.getElementById('piano').src='images/piano_amajorfsharpminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_amajorfsharpminor.png'; 
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/amajorfsharpminor.wav';
 }
 
 function five(){
@@ -48,6 +56,7 @@ function five(){
         document.getElementById('piano').src='images/piano_emajorcsharpminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_emajorcsharpminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/emajorcsharpminor.wav';
 }
 
 function six(){
@@ -58,6 +67,7 @@ function six(){
         document.getElementById('piano').src='images/piano_fmajordminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_fmajordminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/fmajordminor.wav';
 }
 
 function seven(){
@@ -68,6 +78,7 @@ function seven(){
         document.getElementById('piano').src='images/piano_eflatmajorcminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_eflatmajorcminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/eflatmajorcminor.wav';
 }
 
 function eight(){
@@ -78,6 +89,7 @@ function eight(){
         document.getElementById('piano').src='images/piano_bflatmajorgminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_bflatmajorgminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/bflatmajorgminor.wav';
 }
 
 function nine(){
@@ -88,6 +100,8 @@ function nine(){
         document.getElementById('piano').src='images/piano_aflatmajorfminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_aflatmajorfminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/aflatmajorfminor.wav';
+    
 }
 
 function ten(){
@@ -98,6 +112,7 @@ function ten(){
         document.getElementById('piano').src='images/piano_bmajorgsharpminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_bmajorgsharpminor.png'; 
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/bmajorgsharpminor.wav';
 }
 
 function eleven(){
@@ -108,6 +123,7 @@ function eleven(){
         document.getElementById('piano').src='images/piano_cflatmajoraflatminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_cflatmajoraflatminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/cflatmajoraflatminor.wav';
 }
 
 function twelve(){
@@ -118,6 +134,7 @@ function twelve(){
         document.getElementById('piano').src='images/piano_fsharpmajordsharpminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_fsharpmajordsharpminor.png'; 
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/fsharpmajordsharpminor.wav';
 }
 
 function thirteen(){
@@ -128,7 +145,7 @@ function thirteen(){
         document.getElementById('piano').src='images/piano_gflatmajoreflatminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_gflatmajoreflatminor.png';
     }
-
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/gflatmajoreflatminor.wav';
 }
 
 function fourteen(){
@@ -139,6 +156,7 @@ function fourteen(){
         document.getElementById('piano').src='images/piano_csharpmajorasharpminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_csharpmajorasharpminor.png';  
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/csharpmajorasharpminor.wav';
 }
 
 function fifteen(){
@@ -149,9 +167,8 @@ function fifteen(){
         document.getElementById('piano').src='images/piano_dflatmajorbflatminor_mobile.png';
         document.getElementById('notebar').src='images/notebar_dflatmajorbflatminor.png';
     }
+    document.getElementById('player').src='https://sizzoundbucket.s3.us-east-2.amazonaws.com/dflatmajorbflatminor.wav';
 }
-
-
 
 //changes the header. checks every half second
 function responsiveHeader(){
